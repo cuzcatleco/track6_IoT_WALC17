@@ -85,7 +85,7 @@
 <strong>Ronald Criollo</strong>: <em>Engineer at Escuela Superior Politécnica del Litoral, Ecuador</em>
 </li>
 <li>
-<strong>Omar Otoniel Flores Ortez</strong>: <em>Professor at Departamento de Electrónica, Universidad Tecnológica de El Salvador</em>
+<strong>Omar Otoniel Flores COrtez</strong>: <em>Professor at Departamento de Electrónica, Universidad Tecnológica de El Salvador</em>
 </li>
 </ul>
 <h2>
