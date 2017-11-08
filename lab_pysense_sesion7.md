@@ -3,7 +3,7 @@
 # Pysense
 
 ## Introduccion
-En este ejemplo, utiluzaremos el Lopy montado sobre la tarjeta base Pysense para acceder a varios sensores incluidos en esta placa, tales como: acelerometro, termometro, barometro ...
+En este ejemplo, utilizaremos el modulo Lopy montado sobre la tarjeta base Pysense para acceder a varios sensores incluidos en esta placa, tales como: acelerometro, termometro, barometro ...
 
 ## Objetivos
 
@@ -18,7 +18,8 @@ Para este ejemplo necesitaremos:
 - un cable microUSB
 - computador con Atom
 
-The source code is in the `src/pysense` directory.
+El material de codigo fuentes de los ejemplos, carpeta del Drive
+`WALC_2017_TRACK_6_IoT_MATERIAL/RECURSOS/SESION 6/pysense`
 
 
 ## Modulos Python / Pycom para acceder a los sensores del Pysense
@@ -33,7 +34,7 @@ En esta sesion de laboratorio, estudiaremos los ejemplos:
 Pycom proporciona libreria (conjunto de modulos Python) abtrayendonos de los detalles de implementacion sobre los chips sensores. 
 
 
-demos un vistazo a codigo del manejo ser sensor acelerometro `src/pysense/acceloremeter` :
+demos un vistazo a codigo del manejo ser sensor acelerometro `/pysense/acceloremeter` :
 
 ```python
 from pysense import Pysense
@@ -93,7 +94,7 @@ Asi de sencillo!
     # accelerometer
     # ambient-light
     # temp-hum
-
+los codigos fuentes estan disponibles en 
 ## Desafios 
 
 Basado en lo aprendido al realizar las practicas anteriores, desafiate a realizar los siguientes:
