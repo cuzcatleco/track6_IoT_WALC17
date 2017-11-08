@@ -9,11 +9,10 @@ el almacenamiento de datos dentro del propio dispositivo de IoT: archivos log so
 ## Objetivos de aprendizaje
 Aprenderemos como:
 * acceder y operar sobre el sistema de archivos del dispositivo;
-* create and write a file in the `flash` folder;
-* mount and use an `SD` card as an alternative;
-* handle files safely using `with` statement;
-* generate programmatically time stamped log file names;
-* make your code robust and flexible with `try ... except` statement.
+* crear y escribir un archivo en el folder `flash` del dispositivo;
+* montar y usar una tarjeta `SD` ;
+* manejar archivos de forma segura utilizando el comando `with`;
+* hacer codigos robustos y flexibles usando declaraciones `try ... except`.
 
 ## Required Components
 
