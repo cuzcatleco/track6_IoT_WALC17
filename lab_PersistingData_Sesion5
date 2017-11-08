@@ -1,13 +1,14 @@
-**Persisting data**: Writing data on `/flash` or `/SD` card in a LoPy device.
+**Persistencia de Datos**: Escritura en `/flash` o tarjeta `/SD` del dispositivo LoPy.
 
-# Persisting data
+# Persistencia de Datos
 
-## Introduction
-While one of the primary purpose of IoT is to collect and exchange data over an inter-connected network, it is as well important to be able to persist information in the IoT device itself: log files of device's activity, Received Signal Strength Activity (RSSI), ...
+## Introduccion
+Mienstras que uno de los propositos principales del IoT es la recoleccion e intercambio de datos atraves de una red inter-conectada, es tambien importante 
+el almacenamiento de datos dentro del propio dispositivo de IoT: archivos log sobre actividad del dispositivo, niveles de señales, mediciones ...
 
-## Learning outcomes
-You will learn how to:
-* access and operate device's file system;
+## Objetivos de aprendizaje
+Aprenderemos como:
+* acceder y operar sobre el sistema de archivos del dispositivo;
 * create and write a file in the `flash` folder;
 * mount and use an `SD` card as an alternative;
 * handle files safely using `with` statement;
