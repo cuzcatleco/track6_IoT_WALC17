@@ -87,19 +87,18 @@ while True:
 
 Asi de sencillo!
 
+### Practicas
+
+1. implementa en tu placa los ejemplos
+    # accelerometer
+    # ambient-light
+    # temp-hum
+
 ## Desafios 
 
+Basado en lo aprendido al realizar las practicas anteriores, desafiate a realizar los siguientes:
+
 1. Cambia el color del LED basado en la medicion del Acelerometro (verde, naranja, rojo).
-2. Cuando se presione el boton del Pysense, the measurements are logged/saved into the `/flash/log` folder (while LED blinking blue every second) and when you push again logging is stopped and LED's colour is back to green.
+2. Implementa un semaforo de 7 colores basado en el nivel de temperatura del sensor del pysense.
+2. Cuando se presione el boton del Pysense, las mediciones de los sensores se comienzan a guardar en la memoria SD, en el folder  `/flash/log` cada 1 segundo (al mismo tiempo el LED Azul parpadea) y luego cuando se presione de nuevo el boton se dejan de almacenar en la SD y el LED cambia a Verde.
 
-## Advanced
-
-We have provided two versions of the temperature and pressure example:
-* `src/pysense/temp-bar` 
-* `src/pysense/temp-bar-alt` 
-
-It illustrates the situation referred to earlier when the firmware provided (here `MPL3115A2 class` in `/lib` folder) needs to be fixed.
-
-Synchronize and run the first implementation `src/pysense/temp-bar` and you will notice that measurements do not look correct.
-
-Instead, an alterative to the default implementation is provided under `src/pysense/temp-bar-alt` folder. Try to grasp the general idea.
