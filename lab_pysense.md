@@ -33,7 +33,7 @@ En esta sesion de laboratorio, estudiaremos los ejemplos:
 Pycom proporciona libreria (conjunto de modulos Python) abtrayendonos de los detalles de implementacion sobre los chips sensores. 
 
 
-Let's take a look a the  `src/pysense/acceloremeter` first:
+demos un vistazo a codigo del manejo ser sensor acelerometro `src/pysense/acceloremeter` :
 
 ```python
 from pysense import Pysense
@@ -54,11 +54,11 @@ while True:
     time.sleep(1)
 ```
 
-You notice that it looks particularly simple and straightforward! That's the power of code abstraction and Python. 
+Es de notar que parece simple y directo! gracias a la abstraccion de codigo posible en Python.
 
-Let's go trough each step:
+Veamos paso a paso:
 
-1. first create a `Pysense` object which will be used to communicate over the I2C serial bus between the microcontroller and sensor devices (in our specific case the **LIS2HH12** accelerometer - refer to the `src/pysense/datasheet` folder for sensors' documentation). 
+1. primero se crea un objeto `Pysense` que sera utilizado para la comunicacion I2C entre el microcnotrolador y el sensor (en nuestro caso el chip **LIS2HH12** ). 
 
 ```python
 py = Pysense()
