@@ -3,7 +3,7 @@
 # Pysense
 
 ## Introduccion
-En este ejemplo, utilizaremos el modulo Lopy montado sobre la tarjeta base Pysense para acceder a varios sensores incluidos en esta placa, tales como: acelerometro, termometro, barometro ...
+En esta sesion, utilizaremos el modulo Lopy montado sobre la tarjeta base Pysense para acceder a varios sensores incluidos en esta placa, tales como: acelerometro, termometro, barometro ...
 
 ## Objetivos
 
