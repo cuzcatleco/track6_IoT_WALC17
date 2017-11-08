@@ -91,10 +91,13 @@ Asi de sencillo!
 ### Practicas
 
 1. implementa en tu placa los ejemplos
-    # accelerometer
-    # ambient-light
-    # temp-hum
-los codigos fuentes estan disponibles en 
+    #### accelerometer
+    #### ambient-light
+    #### temp-hum
+    
+de nuevo, los codigos fuentes estan disponibles en 
+`WALC_2017_TRACK_6_IoT_MATERIAL/RECURSOS/SESION 6/pysense`
+
 ## Desafios 
 
 Basado en lo aprendido al realizar las practicas anteriores, desafiate a realizar los siguientes:
