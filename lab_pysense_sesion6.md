@@ -103,6 +103,8 @@ de nuevo, los codigos fuentes estan disponibles en
 Basado en lo aprendido al realizar las practicas anteriores, desafiate a realizar los siguientes:
 
 1. Cambia el color del LED basado en la medicion del Acelerometro (verde, naranja, rojo).
+
 2. Implementa un semaforo de 7 colores basado en el nivel de luz sobre el sensor del pysense.
+
 2. Cuando se presione el boton del Pysense, las mediciones de temperatura se comienzan a guardar en la memoria SD, en el folder  `/flash/log` cada 1 segundo (al mismo tiempo el LED Azul parpadea) y luego cuando se presione de nuevo el boton se dejan de almacenar en la SD y el LED cambia a Verde.
 
