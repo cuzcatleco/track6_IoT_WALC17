@@ -87,12 +87,10 @@ while True:
 
 Asi de sencillo!
 
-**But less us be clear**, in many real implementation, as soon as you'd like to finetune the setups of your sensor, calibrate or sometimes even fix the firmware provided, you will have to immerse yourself in all the technical details of the chip sensor.
+## Desafios 
 
-## Exercises
-
-1. Change the color of the LED based on accelerometer measurements (green, orange, red).
-2. When you push the button, the measurements are logged/saved into the `/flash/log` folder (while LED blinking blue every second) and when you push again logging is stopped and LED's colour is back to green.
+1. Cambia el color del LED basado en la medicion del Acelerometro (verde, naranja, rojo).
+2. Cuando se presione el boton del Pysense, the measurements are logged/saved into the `/flash/log` folder (while LED blinking blue every second) and when you push again logging is stopped and LED's colour is back to green.
 
 ## Advanced
 
