@@ -22,7 +22,7 @@ El material de codigo fuentes de los ejemplos, carpeta del Drive
 `WALC_2017_TRACK_6_IoT_MATERIAL/RECURSOS/SESION 6/pysense`
 
 
-## Modulos Python / Pycom para acceder a los sensores del Pysense
+### Modulos Python / Pycom para acceder a los sensores del Pysense
 
 En esta sesion de laboratorio, estudiaremos los ejemplos:
 
@@ -70,7 +70,7 @@ Para mas informacion sobre comunicacion I2C:
 * [Pycom `I2C` class](https://docs.pycom.io/pycom_esp32/library/machine.I2C.html)
 * [I2C briefing by Marco Rainone, ICTP](references/i2csensors.pdf)
 
-2. luego creamos un objeto `LIS2HH12` pasandole como argumento el objeto Pysense como argumento. Mientras el objeto `Pysense` oproveera metodos generales para comunicarnos sobre el bus I2C , este nuevo objeto especificara la direccion del propio chip de sensor (`LIS2HH12` sensor) y las direcciones de registros a utilizar para acceder y calcular las mediciones del acelerometro.
+2. luego creamos un objeto `LIS2HH12` pasandole como argumento el objeto Pysense. Mientras el objeto `Pysense` provee metodos generales para comunicarnos sobre el bus I2C , este nuevo objeto especificara la direccion del propio chip de sensor (`LIS2HH12` sensor) y las direcciones de registros a utilizar para acceder y calcular las mediciones del acelerometro.
 
 `acc = LIS2HH12(py)`
 
@@ -103,6 +103,6 @@ de nuevo, los codigos fuentes estan disponibles en
 Basado en lo aprendido al realizar las practicas anteriores, desafiate a realizar los siguientes:
 
 1. Cambia el color del LED basado en la medicion del Acelerometro (verde, naranja, rojo).
-2. Implementa un semaforo de 7 colores basado en el nivel de temperatura del sensor del pysense.
-2. Cuando se presione el boton del Pysense, las mediciones de los sensores se comienzan a guardar en la memoria SD, en el folder  `/flash/log` cada 1 segundo (al mismo tiempo el LED Azul parpadea) y luego cuando se presione de nuevo el boton se dejan de almacenar en la SD y el LED cambia a Verde.
+2. Implementa un semaforo de 7 colores basado en el nivel de luz sobre el sensor del pysense.
+2. Cuando se presione el boton del Pysense, las mediciones de temperatura se comienzan a guardar en la memoria SD, en el folder  `/flash/log` cada 1 segundo (al mismo tiempo el LED Azul parpadea) y luego cuando se presione de nuevo el boton se dejan de almacenar en la SD y el LED cambia a Verde.
 
