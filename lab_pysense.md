@@ -3,7 +3,7 @@
 # Pysense
 
 ## Introduccion
-En este ejemplo, utiluzaremos el Lopy montado sobre la tarjeta base Pysense para acceder a varios sensores que teien esta placa, tales como: Acelerometro, termometro, barometro ...
+En este ejemplo, utiluzaremos el Lopy montado sobre la tarjeta base Pysense para acceder a varios sensores incluidos en esta placa, tales como: acelerometro, termometro, barometro ...
 
 ## Objetivos
 
@@ -64,16 +64,16 @@ Veamos paso a paso:
 py = Pysense()
 ```
 
-For further information on I2C:
+Para mas informacion sobre comunicacion I2C:
 * [wikipedia entry](https://en.wikipedia.org/wiki/I%C2%B2C)
 * [Pycom `I2C` class](https://docs.pycom.io/pycom_esp32/library/machine.I2C.html)
 * [I2C briefing by Marco Rainone, ICTP](references/i2csensors.pdf)
 
-2. then create a `LIS2HH12` object passing the previously created Pysense object as argument. While the `Pysense` object provides general purpose methods to communicate over the I2C bus, this object will further specify the address of the device (`LIS2HH12` sensor) and register addresses of interest to be used to calculate and give access to the 3-axis accelerometer measurements.
+2. luego creamos un objeto `LIS2HH12` pasandole como argumento el objeto Pysense como argumento. Mientras el objeto `Pysense` oproveera metodos generales para comunicarnos sobre el bus I2C , este nuevo objeto especificara la direccion del propio chip de sensor (`LIS2HH12` sensor) y las direcciones de registros a utilizar para acceder y calcular las mediciones del acelerometro.
 
 `acc = LIS2HH12(py)`
 
-3. and simply loop over measurements and readings every second:
+3. y simplemente realizar las mediciones en un ciclo cada segundo:
 
 ```python
 while True:
@@ -85,7 +85,7 @@ while True:
     time.sleep(1)
 ```
 
-It's that easy!
+Asi de sencillo!
 
 **But less us be clear**, in many real implementation, as soon as you'd like to finetune the setups of your sensor, calibrate or sometimes even fix the firmware provided, you will have to immerse yourself in all the technical details of the chip sensor.
 
