@@ -1,8 +1,8 @@
-**WiFi**: connecting to a WiFi network
+**WiFi**: conexion a una red WiFi
 
 # WiFi
 
-## Introduction
+## Introduccion
 
 As you know the popularity of WiFi has grown steadily in the last decade. WiFi allows local area networks (LANs) to operate without cables and wiring, making it a popular and cost-effective choice for home, business and research networks. Some cities have even constructed free citywide WiFi networks. Using WiFi, IoT nodes can make use of the existing network infrastructure to send data over the Internet.
 
